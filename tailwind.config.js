@@ -11,7 +11,9 @@ module.exports = {
     },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
  // prefix: 'tw-',
 }
 
