@@ -1,29 +1,25 @@
-<header class="header flex justify-between px-5 py-2 mx-16 font-Arboria absolute ">
-  <a href="/" class="logo text-4xl text-lime-600 font-bold">
-    <img src="img/leonor-logo.png" alt="Leonor" width="120px">
-  </a>
-
-  <nav
-    class="nav absolute flex flex-col justify-end shadow-md w-[50%] h-full right-0 px-4 md:static md:h-auto md:w-auto md:flex-row md:shadow-none duration-500 text-white"
-  >
-    <button
-      class="close-nav relative top-0 right-0 text-right text-3xl lg:hidden md:hidden"
-    >
-      <i class="fa-solid fa-xmark"></i>
+<header class="header flex justify-between py-4 mx-16   font-arboria absolute ">
+    <div class="flex-col  mr-40">
+      <a href="/" class="logo">
+        <img src="img/leonor-logo.png" alt="Leonor" width="120px">
+      </a>
+    </div>
+    
+    <nav class="nav flex-col relative shadow-md w-[50%] h-full right-0   md:static md:h-auto md:w-auto md:flex-row md:shadow-none duration-500 text-white">
+      <button class="close-nav  top-0 right-0 text-right text-3xl lg:hidden md:hidden">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">EMPRESA</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">SERVIÇOS</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">TESTEMUNHOS</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">DOCUMENTOS</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">NOTICIAS</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">CONTACTOS</a>
+      <a href="#" class="nav-link text-xs md:mr-3 hover:text-custom-green-1">PT</a>
+      <a href="#" class="nav-link text-xs p-2 bg-custom-green-1  rounded-2xl">+351 234 567 890</a>
+    </nav>
+    <button class="show-nav cursor-pointer lg:hidden md:hidden">
+      <i class="fa-solid fa-bars"></i>
     </button>
-
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">EMPRESA</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">SERVIÇOS</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">TESTEMUNHOS</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">DOCUMENTOS</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">NOTICIAS</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">CONTACTOS</a>
-    <a href="#" class="text-sm nav-link my-2 md:mr-3 hover:text-lime-600">PT</a>
-    <a href="#" class="text-sm nav-link p-2 bg-lime-600  rounded-2xl">+351 234 567 890</a>
-  </nav>
-
-  <button class="show-nav text-3xl cursor-pointer lg:hidden md:hidden">
-    <i class="fa-solid fa-bars"></i>
-  </button>
 </header>
 <script src="js/nav.js"></script>
