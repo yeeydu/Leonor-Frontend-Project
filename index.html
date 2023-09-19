@@ -1,26 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Leonor</title>
-  </head>
-  <body>
-    <!-- <nav id="navbar"></nav> -->
-    <include src="./navbar.html"></include>
-    <div class="slide">
-      <img src="img/senior-couple-insura.png" alt="couple" />
-    </div>
-    <div class="body mx-20">
-      <h1>Hellow</h1>
-    </div>
 
-    <include src="./footer.html"></include>
-    <script src="js/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Leonor</title>
+</head>
+
+<body>
+  <!-- Include Navbar-->
+  <include src="./navbar.html"></include>
+    <!-- Slider-->
+  <div class="slide">
+    <img src="img/senior-couple-insura.png" alt="couple" />
+  </div>
+    <!-- Section Leonor-->
+  <section class="body mx-20 my-20">
+    <div class="flex flex-row gap-40">
+      <div class="flex-1 sm:flex-1 md:flex-1 self-center justify-center">
+        <h1 class="text-custom-green-1 text-5xl font-arboria mb-4">
+          LEONOR RIBEIRO
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          doloribus tempora rerum atque ut rem consequatur id quis, unde quia
+          repudiandae nostrum veniam accusantium sequi dicta esse aliquam sunt
+          adipisci?
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+          doloribus tempora rerum atque ut rem consequatur id quis, unde quia
+          repudiandae nostrum veniam accusantium.
+        </p>
+        <br />
+        <span class="text-sm"> VER MAIS > </span>
+      </div>
+      <div class=" flex-1 items-center my-20">
+        <img src="img/leonor-photo.png" alt="leonor-photo" width="350" />
+      </div>
+    </div>
+    <div class="flex flex-row gap-10">
+      <div class="    md:flex-1   bg-custom-green-2 p-10 rounded-3xl">
+        <div class="flex items-start">
+          <h3 class="flex  text-custom-green-1 m-3 ">PARTICULARES</h3>
+          <div>
+            <p class=" text-white text-sm ">
+              Consulte todos os segures que temos disponíveis para si!</p>
+            <span class="text-xs text-white"> VER MAIS > </span>
+          </div>
+        </div>
+      </div>
+      <div class="   md:flex-1  bg-custom-green-1 p-10 rounded-3xl ">
+        <div class="flex items-start">
+          <h3 class="text-custom-green-2 m-3 ">EMPRESAS</h3>
+          <div>
+            <p class="text-white text-sm  ">Consulte todos os segures que temos disponíveis para a sua empresa!</p>
+            <span class="text-xs text-white"> VER MAIS > </span>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Include Footer-->
+  <include src="./footer.html"></include>
+    <!-- Include script to include html pages-->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
