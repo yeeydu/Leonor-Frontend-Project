@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tw-elements/dist/plugin')
+
   ],
  // prefix: 'tw-',
 }
